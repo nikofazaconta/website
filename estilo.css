@@ -1,0 +1,11 @@
+:root { --fundo: #ffffff; --texto: #111111; --suave: #666666; --destaque: #d0312d; --gravata: #f08a24; }
+@media (prefers-color-scheme: dark) { :root { --fundo: #141414; --texto: #f2f2f2; --suave: #aaaaaa; --destaque: #ff6b5e; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fundo); color: var(--texto); font-family: "Comic Neue", system-ui, sans-serif; line-height: 1.6; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+h1 { font-size: 1.9rem; line-height: 1.2; } h2 { font-size: 1.2rem; margin-top: 28px; }
+a { color: var(--destaque); } .data { color: var(--suave); font-size: .9rem; }
+.topo { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.topo img { width: 120px; height: 120px; border-radius: 50%; }
+.sublinhado { border-bottom: 6px solid var(--destaque); padding-bottom: 4px; }
+footer { margin-top: 40px; color: var(--suave); font-size: .9rem; }
